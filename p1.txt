@@ -1,0 +1,6 @@
+Problem 1:
+
+Each of these processes use the same memory address.  The process ID is increased by one
+in each of the different windows that the program is run.  Since the memory address is the same,
+it is not creating multiple copies each time it is run.  It is simply able to access what is already in 
+memory.
