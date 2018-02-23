@@ -10,12 +10,9 @@ void function(){ // a basic function that iterates to 100, where in each iterati
 	}
 }
 
-
 void emptyFunction(){ // an empty function
     return;
 }
-
-
 
 int main(){
 
@@ -31,13 +28,11 @@ int main(){
 	std::chrono::duration<double> elapsed_seconds3 = end3-start3;
 	std::cout << "elapsed time for empty function: " << elapsed_seconds3.count() << "s\n";
 
-
   	auto start2 = std::chrono::system_clock::now();
   	getpid();
 	auto end2 = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds2 = end2-start2;
 	std::cout << "elapsed time for syscall: " << elapsed_seconds2.count() << "s\n";
-
 
 	return 0;
 }
