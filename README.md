@@ -12,7 +12,7 @@ ___
 
 **Problem 2: Asynchronous notifications [33 points]**
 In this program, you will practice setting up a Unix signal handler to receive asynchronous notifications from the kernel to your program. Specifically, you will define a function to catch the SIGALRM signal, and then you will set an alarm to go off in a few seconds. Stub code:
-```c++
+```C
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
